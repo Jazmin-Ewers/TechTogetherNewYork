@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A99EC422719F04000050166 /* TechTogetherNewYorkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A99EC412719F04000050166 /* TechTogetherNewYorkApp.swift */; };
+		9A99EC442719F04000050166 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A99EC432719F04000050166 /* ContentView.swift */; };
+		9A99EC462719F05000050166 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A99EC452719F05000050166 /* Assets.xcassets */; };
+		9A99EC492719F05000050166 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A99EC482719F05000050166 /* Preview Assets.xcassets */; };
+		9A99EC532719F05200050166 /* TechTogetherNewYorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A99EC522719F05200050166 /* TechTogetherNewYorkTests.swift */; };
+		9A99EC5D2719F05200050166 /* TechTogetherNewYorkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A99EC5C2719F05200050166 /* TechTogetherNewYorkUITests.swift */; };
+		9A99EC5F2719F05200050166 /* TechTogetherNewYorkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A99EC5E2719F05200050166 /* TechTogetherNewYorkUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A99EC4F2719F05200050166 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A99EC362719F03F00050166 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A99EC3D2719F03F00050166;
+			remoteInfo = TechTogetherNewYork;
+		};
+		9A99EC592719F05200050166 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A99EC362719F03F00050166 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A99EC3D2719F03F00050166;
+			remoteInfo = TechTogetherNewYork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A99EC3E2719F03F00050166 /* TechTogetherNewYork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechTogetherNewYork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A99EC412719F04000050166 /* TechTogetherNewYorkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechTogetherNewYorkApp.swift; sourceTree = "<group>"; };
+		9A99EC432719F04000050166 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9A99EC452719F05000050166 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A99EC482719F05000050166 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9A99EC4E2719F05200050166 /* TechTogetherNewYorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechTogetherNewYorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A99EC522719F05200050166 /* TechTogetherNewYorkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechTogetherNewYorkTests.swift; sourceTree = "<group>"; };
+		9A99EC582719F05200050166 /* TechTogetherNewYorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechTogetherNewYorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A99EC5C2719F05200050166 /* TechTogetherNewYorkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechTogetherNewYorkUITests.swift; sourceTree = "<group>"; };
+		9A99EC5E2719F05200050166 /* TechTogetherNewYorkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechTogetherNewYorkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A99EC3B2719F03F00050166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A99EC4B2719F05200050166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A99EC552719F05200050166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A99EC352719F03F00050166 = {
+			isa = PBXGroup;
+			children = (
+				9A99EC402719F03F00050166 /* TechTogetherNewYork */,
+				9A99EC512719F05200050166 /* TechTogetherNewYorkTests */,
+				9A99EC5B2719F05200050166 /* TechTogetherNewYorkUITests */,
+				9A99EC3F2719F03F00050166 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A99EC3F2719F03F00050166 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A99EC3E2719F03F00050166 /* TechTogetherNewYork.app */,
+				9A99EC4E2719F05200050166 /* TechTogetherNewYorkTests.xctest */,
+				9A99EC582719F05200050166 /* TechTogetherNewYorkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A99EC402719F03F00050166 /* TechTogetherNewYork */ = {
+			isa = PBXGroup;
+			children = (
+				9A99EC412719F04000050166 /* TechTogetherNewYorkApp.swift */,
+				9A99EC432719F04000050166 /* ContentView.swift */,
+				9A99EC452719F05000050166 /* Assets.xcassets */,
+				9A99EC472719F05000050166 /* Preview Content */,
+			);
+			path = TechTogetherNewYork;
+			sourceTree = "<group>";
+		};
+		9A99EC472719F05000050166 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9A99EC482719F05000050166 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9A99EC512719F05200050166 /* TechTogetherNewYorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A99EC522719F05200050166 /* TechTogetherNewYorkTests.swift */,
+			);
+			path = TechTogetherNewYorkTests;
+			sourceTree = "<group>";
+		};
+		9A99EC5B2719F05200050166 /* TechTogetherNewYorkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A99EC5C2719F05200050166 /* TechTogetherNewYorkUITests.swift */,
+				9A99EC5E2719F05200050166 /* TechTogetherNewYorkUITestsLaunchTests.swift */,
+			);
+			path = TechTogetherNewYorkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A99EC3D2719F03F00050166 /* TechTogetherNewYork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A99EC622719F05200050166 /* Build configuration list for PBXNativeTarget "TechTogetherNewYork" */;
+			buildPhases = (
+				9A99EC3A2719F03F00050166 /* Sources */,
+				9A99EC3B2719F03F00050166 /* Frameworks */,
+				9A99EC3C2719F03F00050166 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TechTogetherNewYork;
+			productName = TechTogetherNewYork;
+			productReference = 9A99EC3E2719F03F00050166 /* TechTogetherNewYork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A99EC4D2719F05200050166 /* TechTogetherNewYorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A99EC652719F05200050166 /* Build configuration list for PBXNativeTarget "TechTogetherNewYorkTests" */;
+			buildPhases = (
+				9A99EC4A2719F05200050166 /* Sources */,
+				9A99EC4B2719F05200050166 /* Frameworks */,
+				9A99EC4C2719F05200050166 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A99EC502719F05200050166 /* PBXTargetDependency */,
+			);
+			name = TechTogetherNewYorkTests;
+			productName = TechTogetherNewYorkTests;
+			productReference = 9A99EC4E2719F05200050166 /* TechTogetherNewYorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A99EC572719F05200050166 /* TechTogetherNewYorkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A99EC682719F05200050166 /* Build configuration list for PBXNativeTarget "TechTogetherNewYorkUITests" */;
+			buildPhases = (
+				9A99EC542719F05200050166 /* Sources */,
+				9A99EC552719F05200050166 /* Frameworks */,
+				9A99EC562719F05200050166 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A99EC5A2719F05200050166 /* PBXTargetDependency */,
+			);
+			name = TechTogetherNewYorkUITests;
+			productName = TechTogetherNewYorkUITests;
+			productReference = 9A99EC582719F05200050166 /* TechTogetherNewYorkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A99EC362719F03F00050166 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					9A99EC3D2719F03F00050166 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					9A99EC4D2719F05200050166 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 9A99EC3D2719F03F00050166;
+					};
+					9A99EC572719F05200050166 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 9A99EC3D2719F03F00050166;
+					};
+				};
+			};
+			buildConfigurationList = 9A99EC392719F03F00050166 /* Build configuration list for PBXProject "TechTogetherNewYork" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A99EC352719F03F00050166;
+			productRefGroup = 9A99EC3F2719F03F00050166 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A99EC3D2719F03F00050166 /* TechTogetherNewYork */,
+				9A99EC4D2719F05200050166 /* TechTogetherNewYorkTests */,
+				9A99EC572719F05200050166 /* TechTogetherNewYorkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A99EC3C2719F03F00050166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A99EC492719F05000050166 /* Preview Assets.xcassets in Resources */,
+				9A99EC462719F05000050166 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A99EC4C2719F05200050166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A99EC562719F05200050166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A99EC3A2719F03F00050166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A99EC442719F04000050166 /* ContentView.swift in Sources */,
+				9A99EC422719F04000050166 /* TechTogetherNewYorkApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A99EC4A2719F05200050166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A99EC532719F05200050166 /* TechTogetherNewYorkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A99EC542719F05200050166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A99EC5F2719F05200050166 /* TechTogetherNewYorkUITestsLaunchTests.swift in Sources */,
+				9A99EC5D2719F05200050166 /* TechTogetherNewYorkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A99EC502719F05200050166 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A99EC3D2719F03F00050166 /* TechTogetherNewYork */;
+			targetProxy = 9A99EC4F2719F05200050166 /* PBXContainerItemProxy */;
+		};
+		9A99EC5A2719F05200050166 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A99EC3D2719F03F00050166 /* TechTogetherNewYork */;
+			targetProxy = 9A99EC592719F05200050166 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9A99EC602719F05200050166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A99EC612719F05200050166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A99EC632719F05200050166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TechTogetherNewYork/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TechTogetherNewYork.TechTogetherNewYork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A99EC642719F05200050166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TechTogetherNewYork/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TechTogetherNewYork.TechTogetherNewYork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9A99EC662719F05200050166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TechTogetherNewYork.TechTogetherNewYorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TechTogetherNewYork.app/TechTogetherNewYork";
+			};
+			name = Debug;
+		};
+		9A99EC672719F05200050166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TechTogetherNewYork.TechTogetherNewYorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TechTogetherNewYork.app/TechTogetherNewYork";
+			};
+			name = Release;
+		};
+		9A99EC692719F05200050166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TechTogetherNewYork.TechTogetherNewYorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TechTogetherNewYork;
+			};
+			name = Debug;
+		};
+		9A99EC6A2719F05200050166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TechTogetherNewYork.TechTogetherNewYorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TechTogetherNewYork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A99EC392719F03F00050166 /* Build configuration list for PBXProject "TechTogetherNewYork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A99EC602719F05200050166 /* Debug */,
+				9A99EC612719F05200050166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A99EC622719F05200050166 /* Build configuration list for PBXNativeTarget "TechTogetherNewYork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A99EC632719F05200050166 /* Debug */,
+				9A99EC642719F05200050166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A99EC652719F05200050166 /* Build configuration list for PBXNativeTarget "TechTogetherNewYorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A99EC662719F05200050166 /* Debug */,
+				9A99EC672719F05200050166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A99EC682719F05200050166 /* Build configuration list for PBXNativeTarget "TechTogetherNewYorkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A99EC692719F05200050166 /* Debug */,
+				9A99EC6A2719F05200050166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A99EC362719F03F00050166 /* Project object */;
+}
