@@ -9,7 +9,7 @@
 
 ### How to use the webpage:
 - Type in what is troubling you about your excition process and PRESS ENTER.
-- Based on your words in the paragraph we will directio you to the most relevant information.
+- Based on your words in the paragraph we will direct you to the most relevant information.
 - Use the Nagivation bar to seemlinessly browser through other resources. 
 
 ### Try it Out
