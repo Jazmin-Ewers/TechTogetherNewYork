@@ -28,4 +28,6 @@ To make out program scalable, it would be best to use a Dictionary / HashMap str
 - JavaScript
 - HTML
 - CSS
+- Figma 
+- WebFlow
 
